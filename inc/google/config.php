@@ -18,10 +18,11 @@
  require_once('config.php');
  
  
-$google_oauth2_client_id		= '487992508469-uv0urmgi62a099051nqhqu9hq87573fr.apps.googleusercontent.com';
-$google_oauth2_client_secret	= '-VpzR4DYCSQ-Bx0aYWZHZjdU';
-$google_oauth2_redirect_uri		= 'http://localhost/MyUCA/';
-$google_developer_key			= 'AIzaSyBYMitwKR_2k7_yqpse1kpvsnrKo8-GvyQ';
+$google_oauth2_client_id		= '';
+$google_oauth2_client_secret	= '';
+$google_oauth2_redirect_uri		= '';
+$google_developer_key			= '';
+$google_app_name				= '';
 
 global $apiConfig;
 $apiConfig = array(
@@ -30,7 +31,7 @@ $apiConfig = array(
     'use_objects' => false,
   
     // The application_name is included in the User-Agent HTTP header.
-    'application_name' => 'MyUCA',
+    'application_name' => $google_app_name,
 
     // OAuth2 Settings, you can get these keys at https://code.google.com/apis/console
     'oauth2_client_id' => $google_oauth2_client_id,
