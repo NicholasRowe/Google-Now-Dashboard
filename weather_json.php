@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting(0);
 include('functions.php');
 require_once('config.php');

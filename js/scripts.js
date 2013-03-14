@@ -2,51 +2,10 @@
 
 function getlocation()
 {
-	try { if(!google) { google = 0; } } catch(err) { google = 0; } // Stupid Exceptions
-	if(navigator.geolocation)
-	{
-		if(navigator.geolocation.getCurrentPosition(
-			function(position){
-				zip_from_latlng(position.coords.latitude,position.coords.longitude,"getweatherjson");
-			},function (error) { 
- 			if (error.code = error.PERMISSION_DENIED)
-    			get_from_ip();
-			}
-		));}
-	else
-	{
-		//	Use jsapi from google for geo-location.
-		get_from_ip();
-	}
-	displayload('Loading Location Data...(may take a while)');
-}
-
-function zip_from_latlng(latitude,longitude,callback)
-{
-		var script = document.createElement("script");
-		script.src = "http://ws.geonames.org/findNearbyPostalCodesJSON?lat=" + latitude + "&lng=" + longitude + "&callback=" + callback;
-		document.getElementsByTagName("head")[0].appendChild(script);
-		displayload('Loading Weather Data...');
-}
-
-function get_from_ip()
-{
 	var script = document.createElement("script");
 	script.src = "get_location.php";
 	document.getElementsByTagName("head")[0].appendChild(script);
-	displayload('Loading Weather Data...');
-}
-
-function getweatherjson(json)
-{
-	getweather(
-		json.postalCodes[0].lat,
-		json.postalCodes[0].lng,
-		json.postalCodes[0].countryCode,
-		json.postalCodes[0].placeName,
-		json.postalCodes[0].adminCode1
-	);
-	displayload('Loading Weather Data...');
+	displayload('Loading Location Data...');
 }
 
 function getweatherjson2(json)

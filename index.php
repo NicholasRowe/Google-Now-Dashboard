@@ -1,4 +1,4 @@
-<?
+<?php
 session_start();
 require_once('inc/adodb/adodb.inc.php');
 require_once('inc/google/Google_Client.php');
@@ -74,7 +74,7 @@ getlocation();	//Calls weather
 <body>
 
 <div id="alerts">Loading...</div>
-<?
+<?php
 if(!$client->getAccessToken()) {
   $authUrl = $client->createAuthUrl();
   print "<a class='login' href='$authUrl'>Connect Me to access your Google Calendar and Google Tasks!</a>";
@@ -132,5 +132,5 @@ if(!$client->getAccessToken()) {
 
 </body>
 </html>
-<?
+<?php
 }

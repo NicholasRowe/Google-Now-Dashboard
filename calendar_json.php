@@ -1,4 +1,4 @@
-<?
+<?php
 require_once('inc/adodb/adodb.inc.php');
 require_once('inc/google/Google_Client.php');
 require_once('inc/google/contrib/Google_CalendarService.php');

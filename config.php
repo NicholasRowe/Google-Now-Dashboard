@@ -1,4 +1,4 @@
-<?
+<?php
 
 /*
 *	Used for pushing to an Android device.
