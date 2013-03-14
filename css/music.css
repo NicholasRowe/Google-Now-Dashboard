@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#music_player
+{
+	padding-bottom:0px !important;
+}
+.album_art
+{
+	width:40%;
+	float:left;
+	display:block;
+}
+
+#player_data
+{
+	float:left;
+	width:60%;
+	height:auto;
+	display:block;
+	overflow:hidden;
+}
+.player_track_name
+{
+	width:55%;
+	display:block;
+	font-size:24pt;
+	font-weight:200;
+	padding-left:45%;
+}
+.player_track_artist
+{
+	width:55%;
+	display:block;
+	font-size:16pt;
+	font-weight:200;
+	margin-left:45%;
+}
+.player_track_album
+{
+	width:55%;
+	display:block;
+	font-size:16pt;
+	font-weight:200;
+	margin-left:45%;
+}
+.player_track_release
+{
+	width:55%;
+	display:block;
+	font-size:14pt;
+	font-weight:200;
+	margin-left:45%;
+	margin-top:30px;
+}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#reddit
+{
+	min-height:0px !important;
+	
+	font-size:18pt;
+	
+	padding:15px 0px !important;
+}
+#reddit .mail_none
+{
+	width:46px;
+	height:34px;
+	display:block;
+	background:url(../img/reddit_mail_none.png);
+	float:left;
+	margin-left:15px;
+}
+#reddit .mail_some
+{
+	width:46px;
+	height:34px;
+	display:block;
+	background:url(../img/reddit_mail_some.png);
+	float:left;
+	margin-left:15px;
+}
+#reddit .username
+{
+	float:left;
+	height:29px;
+	display:block;
+	margin-left:15px;
+	margin-top:5px;
+}
+#reddit .karma
+{
+	float:right;
+	display:block;
+	margin-right:15px;
+	margin-top:5px;
+}

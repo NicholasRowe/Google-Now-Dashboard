@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#alerts
+{
+	width:100%;
+	height:auto;
+	background:#aa66cc;
+	
+	padding:10px;
+	
+	text-align:center;
+	font-size:24pt;
+	font-weight:200;
+	
+	font-family: 'Roboto', sans-serif;
+	
+	position:fixed;
+	top:0;
+	left:0;
+	
+	opacity:0;
+	
+	line-height: 1;
+	margin: 0;
+	border: 0;
+}

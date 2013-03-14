@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Class */
+
+#next_class, #time
+{
+	padding-top:10px;
+}
+.next_title
+{
+	width:80%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:5px;
+	margin-left:5%;
+	font-size:24pt;
+	font-weight:200;
+	display:block;
+	border-bottom:1px solid #e4e4e4;
+}
+.next_bigtime
+{
+	display:block;
+	width:100%;
+	text-align:center;
+	font-weight:200;
+	font-size:64pt;
+}
+.next_assoctime:before
+{
+	content:"";
+	background:url(../img/due_date.png);
+	display:block;
+	float:left;
+	width:24px;
+	height:24px;
+	background-size:contain;
+	margin-right:5px;
+	margin-left:5%;
+}
+.next_assoctime
+{
+	display:block;
+}
+.next_location:before
+{
+	content:"";
+	background:url(../img/location.png);
+	display:block;
+	float:left;
+	width:24px;
+	height:24px;
+	background-size:contain;
+	margin-right:5px;
+	margin-left:5%;
+}
+.next_location
+{
+	display:block;
+	margin-top:5px;
+}
+
+.next_push_container
+{
+	width:90%;
+	padding-bottom:5px;
+	margin-left:5%;
+	margin-top:10px;
+	padding-top:10px;
+	display:block;
+	border-top:1px solid #e4e4e4;
+	cursor:pointer;
+}
+.push_text:before
+{
+	content:"";
+	background:url(../img/push_phone.png);
+	display:block;
+	float:left;
+	width:24px;
+	height:24px;
+	background-size:contain;
+	margin-right:5px;
+}

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Tasks */
+
+#tasks
+{
+	padding-top:10px;
+}
+
+.header_tasks
+{
+	width:80%;
+	padding-left:5%;
+	padding-right:5%;
+	padding-bottom:5px;
+	margin-left:5%;
+	font-size:24pt;
+	font-weight:200;
+	display:block;
+	border-bottom:1px solid #e4e4e4;
+}
+#assignments
+{
+	width:100%;
+	list-style:none;
+	padding-left:0px !important;
+	margin-top:0px !important;
+}
+.task
+{
+	width:80%;
+	padding-right:10%;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-left:5%;
+	border-bottom:1px solid #e4e4e4;
+	display:block;	
+}
+.task_completed
+{
+	width:80%;
+	padding-right:10%;
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-left:5%;
+	border-bottom:1px solid #e4e4e4;
+	display:block;
+}
+.task_completed .task_status
+{
+	background:#00ddff !important;
+}
+.task_completed .task_stuff
+{
+	opacity:.5;
+}
+.task_status
+{
+	float:left;
+	width:5%;
+	height: auto;
+	display:block;
+}
+.task_stuff
+{
+	width:90%;
+	margin-left:5%;
+	float:left;
+	display:block;
+}
+.task_title
+{
+	float:left;
+	width:100%;
+	font-size:16pt;
+	font-weight:300;
+}
+.task_notes
+{
+	float:left;
+	width:100%;
+	font-size:12pt;
+	font-weight:300;
+}
+.task_duedate:before
+{
+	content:"";
+	background:url(../img/due_date.png);
+	display:block;
+	float:left;
+	width:18px;
+	height:18px;
+	background-size:contain;
+}
+.task_duedate
+{
+	float:left;
+	width:100%;
+	font-size:12pt;
+	font-weight:300;
+}

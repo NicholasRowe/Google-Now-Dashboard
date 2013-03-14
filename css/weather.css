@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Weather */
+
+#weather_main_img_stats
+{
+	width:35%;
+	float:left;
+	height:auto;
+	margin-left:5%;
+}
+#weather_main_img
+{
+	width:100%;
+	height:auto;
+	float:left;
+}
+#weather_img_current_cond
+{
+	width:100%;
+	font-size:14pt;
+	text-align:center !important;
+	display:block;
+}
+#weather_main_stats
+{
+	margin-left:50%;
+	width:50%;
+	height:auto;
+}
+#weather_main_name_place
+{
+	padding-top:15px;
+	display:block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight:300;
+}
+#weather_main_current_temp
+{
+	font-size:48pt;
+	display:block;
+	font-weight:100;
+}
+#weather_main_windy:before
+{
+	content:"";
+	background:url(../img/weather_wind.png);
+	display:block;
+	float:left;
+	width:26px;
+	height:26px;
+	background-size:contain;
+	margin-right:5px;
+}
+#weather_main_windy
+{
+	display:block;
+	font-size:14pt;
+	float:left;
+	width:100%;
+}
+#weather_main_rainy:before
+{
+	content:"";
+	background:url(../img/weather_umbrella.png);
+	display:block;
+	float:left;
+	width:26px;
+	height:26px;
+	background-size:contain;
+	margin-right:5px;
+}
+#weather_main_rainy
+{
+	display:block;
+	width:100%;
+	float:left;
+	font-size:14pt;
+}
+
+#weather_forecast
+{
+	margin-top:20px;
+}
+
+.forecast_day
+{
+	display:block;
+	width:25%;
+	height:auto;
+	alignment-adjust:central;
+}
+
+.forecast_day_name
+{
+	font-size:12pt;
+	width:100%;
+	text-align:center;
+	display:block;
+}
+.forecast_day_icon
+{
+	width:80%;
+	margin-top:0px;
+	margin-left:10%;
+}
+.forecast_day_high
+{
+	font-size:12pt;
+	width:100%;
+	text-align:center;
+	display:block;
+}
+.forecast_day_low
+{
+	font-size:12pt;
+	width:100%;
+	text-align:center;
+	display:block;
+}
+
+#day_1
+{
+	float:left;
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 99%, rgba(228,228,228,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0)), color-stop(100%,rgba(228,228,228,1)));
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+	background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+	background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+}
+#day_2
+{
+	float:left;
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 99%, rgba(228,228,228,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0)), color-stop(100%,rgba(228,228,228,1)));
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+	background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+	background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+}
+#day_3
+{
+	float:left;
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 99%, rgba(228,228,228,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(99%,rgba(0,0,0,0)), color-stop(100%,rgba(228,228,228,1)));
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+	background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+	background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 99%,rgba(228,228,228,1) 100%);
+}
+#day_4
+{
+	float:left;
+}
